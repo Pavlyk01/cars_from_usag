@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Авто из США</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="images/icon/car.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,7 +35,7 @@
                     <a class="social__link" href="#"><img class="social__img" src="images/icon/telegram.svg" alt="social-img"></a>
                     <a class="social__link" href="#"><img class="social__img" src="images/icon/whatsapp.svg" alt="social-img"></a>
                 </div>
-                <img class="header__images" src="images/mustang.png" alt="mustang">
+                <img class="header__images" src="images/mustang.png" data-aos="fade-left" data-aos-duration="1500" alt="mustang">
             </div>
         </div>
     </header>
@@ -78,27 +79,27 @@
                             </div>
                         </div>
                         <ol class="services__list">
-                            <li class="services__item">
+                            <li class="services__item data-aos=" data-aos="fade-left" data-aos-duration="600">
                                 <h4 class="services__item-title">Покупка авто</h4>
                                 <p class="services__item-text">Подбор автомобиля и экспертная проверка</p>
                             </li>
-                            <li class="services__item">
+                            <li class="services__item data-aos=" data-aos="fade-left" data-aos-duration="900">
                                 <h4 class="services__item-title">Доставка морем</h4>
                                 <p class="services__item-text">Расчет оптимальной стоимости доставки авто</p>
                             </li>
-                            <li class="services__item">
+                            <li class="services__item data-aos=" data-aos="fade-left" data-aos-duration="1200">
                                 <h4 class="services__item-title">Растаможка авто</h4>
                                 <p class="services__item-text">Прохождение таможенного оформления (2-3 дня)</p>
                             </li>
-                            <li class="services__item">
+                            <li class="services__item data-aos=" data-aos="fade-left" data-aos-duration="1500">
                                 <h4 class="services__item-title">Ремонт авто</h4>
                                 <p class="services__item-text">Комплексный ремонт автомобиля на СТО</p>
                             </li>
-                            <li class="services__item">
+                            <li class="services__item data-aos=" data-aos="fade-left" data-aos-duration="1800">
                                 <h4 class="services__item-title">Сертификация</h4>
                                 <p class="services__item-text">Услуга предоставляется по желанию</p>
                             </li>
-                            <li class="services__item">
+                            <li class="services__item data-aos=" data-aos="fade-left" data-aos-duration="2100">
                                 <h4 class="services__item-title">Постановка на учет</h4>
                                 <p class="services__item-text">Оформление автомобиля в Украине</p>
                             </li>
@@ -240,7 +241,10 @@
 
     </div>
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js " integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin=" anonymous "></script>
     <script src="js/slick.min.js"></script>
     <script src="js/main.js "></script>
